@@ -80,9 +80,13 @@ h2 a:active{
   }
 }
 @media (min-width: 700px) and (max-width: 1480px) {
+  body{
+    position: absolute;
+    right: 30px;
+  }
   .container{
     width: 55vw;
-    margin: 5pc 0 0 0;
+    margin: 10pc 0 0 0;
     background-color: whitesmoke;
     color: black;
     box-shadow: 15px 15px 0px 0.2px;
