@@ -1,0 +1,101 @@
+@font-face {
+  font-family: body;
+  src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+@font-face {
+  font-family: font;
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: fon;
+  src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+}
+@font-face {
+  font-family: fin;
+  src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+body{
+  background-color: rgb(238, 223, 11);
+}
+.container{
+  width: 24vw;
+  margin: 5pc 0 0pc 0;
+  background-color: whitesmoke;
+  color: black;
+  box-shadow: 15px 15px 0px 0.2px;
+  border: 1px solid;
+  position: absolute;
+  right: 35pc;
+  border-radius: 20px;
+  text-wrap: wrap;
+  font-family: body;
+}
+.card{
+  padding: 25px;
+  position: relative;
+  line-height: 30px;
+}
+img{
+  border-radius: 20px;
+  position: static;
+}
+button{
+  background-color: rgb(243, 215, 57);
+  border: none;
+  height: 25px;
+  width: 70px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-family: body;
+}
+h2 a:active{
+  color: rgb(238, 223, 11);
+  text-emphasis: uppercase;
+}
+.card-text p{
+  font-family: font;
+  opacity: 0.4;
+  font-size: 16px;
+}
+@media (min-width: 240px) and (max-width: 700px) {
+  .container{
+    width: 75vw;
+    margin: 5pc 0 0 0;
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 15px 15px 0px 0.2px;
+    position: absolute;
+    right: 4pc;
+    border-radius: 20px;
+    text-wrap: wrap;
+    font-family: body;
+    text-wrap: wrap;
+  }
+  .card{
+    padding: 25px;
+    position: relative;
+    line-height: 30px;
+  }
+}
+@media (min-width: 700px) and (max-width: 1480px) {
+  .container{
+    width: 55vw;
+    margin: 5pc 0 0 0;
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 15px 15px 0px 0.2px;
+    position: absolute;
+    right: 20pc;
+    border-radius: 20px;
+    text-wrap: wrap;
+    font-family: body;
+    text-wrap: wrap;
+  }
+  .card{
+    padding: 25px;
+    position: relative;
+    line-height: 30px;
+  }
+}
