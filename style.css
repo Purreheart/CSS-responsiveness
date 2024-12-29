@@ -87,7 +87,7 @@ h2 a:active{
     color: black;
     box-shadow: 15px 15px 0px 0.2px;
     position: absolute;
-    right: 20pc;
+    right: 10pc;
     border-radius: 20px;
     text-wrap: wrap;
     font-family: body;
